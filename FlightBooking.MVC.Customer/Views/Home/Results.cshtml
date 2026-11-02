@@ -1,0 +1,32 @@
+@model FlightBooking.MVC.Customer.Models.SearchFormViewModel
+@{
+    ViewData["Title"] = "نتائج البحث";
+    Layout = "_Layout";
+}
+<h2>الرحلات من @Model.From إلى @Model.To - @Model.Date?.ToString("yyyy-MM-dd")</h2>
+
+@if (Model.Results is null || Model.Results.Count == 0)
+{
+    <p>لا توجد رحلات متاحة لهذا البحث.</p>
+}
+else
+{
+    foreach (var f in Model.Results)
+    {
+        <div style="background:#fff;border-radius:8px;padding:16px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;">
+            <div>
+                <strong>@f.AirlineName</strong> - @f.FlightNumber<br />
+                @f.DepartureAirportCode @f.DepartureTimeUtc.ToString("HH:mm") &rarr; @f.ArrivalAirportCode @f.ArrivalTimeUtc.ToString("HH:mm")
+                <br />
+                <small>المدة: @(f.DurationMinutes / 60)س @(f.DurationMinutes % 60)د - @(f.StopsCount == 0 ? "مباشرة" : f.StopsCount + " توقف")</small>
+            </div>
+            <div style="text-align:left;">
+                <div style="font-size:20px;font-weight:bold;color:#12213b;">@f.EconomyPrice.ToString("0") @f.Currency</div>
+                <form asp-controller="Booking" asp-action="Start" method="get">
+                    <input type="hidden" name="flightId" value="@f.FlightId" />
+                    <button type="submit" style="background:#1f8a4c;color:#fff;border:none;padding:8px 20px;border-radius:6px;margin-top:6px;">احجز الآن</button>
+                </form>
+            </div>
+        </div>
+    }
+}

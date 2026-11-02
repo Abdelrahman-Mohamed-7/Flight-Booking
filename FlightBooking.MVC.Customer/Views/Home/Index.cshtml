@@ -1,0 +1,37 @@
+@model FlightBooking.MVC.Customer.Models.SearchFormViewModel
+@{
+    ViewData["Title"] = "ابحث عن رحلتك";
+    Layout = "_Layout";
+}
+<h2>ابحث عن رحلتك</h2>
+<form asp-action="Results" method="get" style="background:#fff;padding:20px;border-radius:8px;display:flex;gap:12px;flex-wrap:wrap;">
+    <div>
+        <label>من</label><br />
+        <select name="from" required>
+            @foreach (var a in Model.Airports)
+            {
+                <option value="@a.IataCode">@a.City (@a.IataCode)</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>إلى</label><br />
+        <select name="to" required>
+            @foreach (var a in Model.Airports)
+            {
+                <option value="@a.IataCode">@a.City (@a.IataCode)</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>تاريخ السفر</label><br />
+        <input type="date" name="date" value="@Model.Date?.ToString("yyyy-MM-dd")" required />
+    </div>
+    <div>
+        <label>عدد المسافرين</label><br />
+        <input type="number" name="adults" value="@Model.Adults" min="1" max="9" />
+    </div>
+    <div style="align-self:flex-end;">
+        <button type="submit" style="background:#12213b;color:#fff;padding:10px 24px;border:none;border-radius:6px;">بحث</button>
+    </div>
+</form>

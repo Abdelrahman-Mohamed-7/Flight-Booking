@@ -1,0 +1,5 @@
+C:\Users\hp\Desktop\FlightBookingSolution\FlightBooking.Services\obj\Debug\net8.0\FlightBooking.Services.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\FlightBookingSolution\FlightBooking.Services\obj\Debug\net8.0\FlightBooking.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\FlightBookingSolution\FlightBooking.Services\obj\Debug\net8.0\FlightBooking.Services.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\FlightBookingSolution\FlightBooking.Services\obj\Debug\net8.0\FlightBooking.Services.AssemblyInfo.cs
+C:\Users\hp\Desktop\FlightBookingSolution\FlightBooking.Services\obj\Debug\net8.0\FlightBooking.Services.csproj.CoreCompileInputs.cache

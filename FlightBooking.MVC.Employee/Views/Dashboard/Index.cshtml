@@ -1,0 +1,57 @@
+@model FlightBooking.MVC.Employee.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "الرحلات";
+    Layout = "_Layout";
+}
+<h2>البحث عن الرحلات</h2>
+<form asp-action="Search" method="get" style="background:#fff;padding:16px;border-radius:8px;display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;">
+    <div>
+        <label>من</label><br />
+        <select name="from">
+            @foreach (var a in Model.Airports)
+            {
+                <option value="@a.IataCode" selected="@(a.IataCode == Model.From)">@a.City (@a.IataCode)</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>إلى</label><br />
+        <select name="to">
+            @foreach (var a in Model.Airports)
+            {
+                <option value="@a.IataCode" selected="@(a.IataCode == Model.To)">@a.City (@a.IataCode)</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>التاريخ</label><br />
+        <input type="date" name="date" value="@Model.Date.ToString("yyyy-MM-dd")" />
+    </div>
+    <div style="align-self:flex-end;">
+        <button type="submit" style="background:#7a1f2b;color:#fff;padding:10px 24px;border:none;border-radius:6px;">بحث</button>
+    </div>
+</form>
+
+@if (Model.Flights is not null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>رقم الرحلة</th><th>الخط الجوي</th><th>المغادرة</th><th>الوصول</th><th>سعر الاقتصادي</th><th>المقاعد المتاحة</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var f in Model.Flights)
+        {
+            <tr>
+                <td>@f.FlightNumber</td>
+                <td>@f.AirlineName</td>
+                <td>@f.DepartureAirportCode @f.DepartureTimeUtc.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@f.ArrivalAirportCode @f.ArrivalTimeUtc.ToString("HH:mm")</td>
+                <td>@f.EconomyPrice.ToString("0.000") KWD</td>
+                <td>@(f.EconomyAvailableSeats <= 5 ? "⚠ " : "")@f.EconomyAvailableSeats</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

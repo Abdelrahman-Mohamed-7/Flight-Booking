@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|c:\\users\\hp\\desktop\\flightbookingsolution\\flightbooking.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|solutionrelative:flightbooking.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|c:\\users\\hp\\desktop\\flightbookingsolution\\flightbooking.api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|solutionrelative:flightbooking.api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|c:\\users\\hp\\desktop\\flightbookingsolution\\flightbooking.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|solutionrelative:flightbooking.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|c:\\users\\hp\\desktop\\flightbookingsolution\\flightbooking.api\\controllers\\airportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|solutionrelative:flightbooking.api\\controllers\\airportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|c:\\users\\hp\\desktop\\flightbookingsolution\\flightbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|solutionrelative:flightbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|c:\\users\\hp\\desktop\\flightbookingsolution\\flightbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|FlightBooking.API\\FlightBooking.API.csproj|solutionrelative:flightbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "FlightBooking.API\\Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "FlightBooking.API\\Controllers\\FlightsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T22:01:11.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "FlightBooking.API\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "FlightBooking.API\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T22:01:07.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FlightBooking.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FlightBooking.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T22:01:03.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AirportsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\AirportsController.cs",
+              "RelativeDocumentMoniker": "FlightBooking.API\\Controllers\\AirportsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Controllers\\AirportsController.cs",
+              "RelativeToolTip": "FlightBooking.API\\Controllers\\AirportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T22:01:01.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Program.cs",
+              "RelativeDocumentMoniker": "FlightBooking.API\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\Program.cs",
+              "RelativeToolTip": "FlightBooking.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T22:00:57.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FlightBooking.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FlightBookingSolution\\FlightBooking.API\\appsettings.json",
+              "RelativeToolTip": "FlightBooking.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-22T22:00:54.369Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
